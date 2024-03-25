@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style type="text/css">
+    body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header img {
+    height: 3rem;
+}
+
+#deal {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+#deal h2 {
+    margin-top: 0;
+}
+
+#deal h3 {
+    margin-bottom: 0.5rem;
+}
+
+#deal p {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#deal button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+#packages
+    </style>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    <link rel="stylesheet" href="styles.css">
+</h>
+<body>
+    <header>
+        <h1>Hot Deals</h1>
+        <img src="backpack.png" alt="Backpack">
+    </header>
+    <section id="deal">
+        <h2>3 Days, 2 Nights</h2>
+        <h3>Explore the Beauty of the island for 3 days and 2 nights with our travel agency</h3>
+        <p>ⒸIndonesia</p>
+        <p>€<span>$500</span>/Person</p>
+        <button>Know More</button>
+    </section>
+    <section id="packages">
+        <h2>Best Packages For You</h2>
+        <div class="package">
+            <h3>South Asia</h3>
+            <h4>3 Days, 2 Nights</h4>
+            <p>Enjoy the Shrimes and blossoms here in this beautiful country</p>
+            <button>Choose Destination</button>
+        </div>
+        <div class="package">
+            <h3>Japan</h3>
+            <h4>Honeymoon</h4>
+            <p>Make Payment</p>
+            <button>Reach Airport on Selected Date</button>
+        </div>
+        <div class="package">
+            <h3>Europe</h3>
+            <h4>3 Days, 2 Nights</h4>
+            <p>Explore the majestic mountains and landscapes day and nights</p>
+            <button>Trip To Greece</button>
+        </div>
+    </section>
+    <section id="trip">
+        <h2>Book Your Next Trip in 3 Easy Steps</h2>
+        <ul>
+            <li>Easy and Fast</li>
+            <li>m</li>
+        </ul>
+        <button>More</button>
+    </section>
+    <footer>
+        <p>ⒸMountains</p>
+        <ul>
+            <li>Trip to rome 40% completed</li>
+            <li>Trip to Greece 14-29 Junel by Robbin j 24 people going</li>
+        </ul>
+    </footer>
+</body>
+</html>
